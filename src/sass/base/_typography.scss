@@ -1,0 +1,11 @@
+@use "../abstracts/variables";
+
+.header__title {
+  font-family: variables.$font-heading;
+  color: variables.$color-primary-accent;
+}
+
+.booking__heading {
+  font-family: variables.$font-body;
+  color: variables.$color-tertiary;
+}

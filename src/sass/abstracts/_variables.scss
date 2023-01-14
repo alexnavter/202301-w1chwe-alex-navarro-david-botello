@@ -1,4 +1,8 @@
-$color-primary-accent: #ff7657;
+@import url(/node_modules/@fontsource/rubik/400.css);
+@import url(/node_modules/@fontsource/playfair-display/index.css);
+
+$color-primary-accent: #ff7757;
+
 $color-primary: #ffd2c7;
 $color-primary-light: #fff8f1;
 
@@ -12,3 +16,7 @@ $color-gray-light: #767e86;
 $color-gray-background-light: #f5f6f7;
 $color-gray-background: #e5e5e5;
 $color-white: #fff;
+
+$font-heading: "Playfair Display", sans-serif;
+$font-subheading: "Mulish", sans-serif;
+$font-body: "Rubik", sans-serif;

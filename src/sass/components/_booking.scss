@@ -6,7 +6,6 @@
 
   padding: 2rem 1.5rem 0;
   width: 288px;
-  height: 565px;
 
   background-color: #fff;
   border-radius: 16px;
@@ -16,8 +15,16 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 4rem;
   }
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #767e86;
+  width: 16.15rem;
 }
 
 .booking-button {
@@ -25,7 +32,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 3rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
   margin-left: -1.5rem;
   background-color: #ff7757;
   width: 288px;

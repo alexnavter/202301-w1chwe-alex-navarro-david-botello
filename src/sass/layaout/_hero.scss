@@ -1,14 +1,14 @@
 .hero {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 1.6rem 10rem 0;
-  gap: 10rem;
-  height: 90rem;
+  gap: 6rem;
+  height: 100vh;
   background: url(../img/Mobile/hero-crop.webp);
 
   &__text-container {
-    margin-top: 11rem;
+    margin-top: 13rem;
     padding: 0 2rem;
   }
 }

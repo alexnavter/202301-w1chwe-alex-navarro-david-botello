@@ -1,3 +1,9 @@
+@use "../abstracts/variables";
+
 html {
   font-size: 62.5%;
+}
+
+.heading:not(.hero__title-heading) {
+  border-bottom: 3px solid variables.$color-primary-accent;
 }

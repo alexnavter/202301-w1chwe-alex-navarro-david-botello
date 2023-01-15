@@ -6,4 +6,9 @@
   gap: 10rem;
   height: 90rem;
   background: url(../img/Mobile/hero-crop.webp);
+
+  &__text-container {
+    margin-top: 11rem;
+    padding: 0 2rem;
+  }
 }

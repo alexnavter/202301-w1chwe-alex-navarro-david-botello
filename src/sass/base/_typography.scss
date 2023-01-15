@@ -1,13 +1,17 @@
 @use "../abstracts/variables";
 
-.heading {
-  font-family: variables.$font-heading;
-  color: variables.$color-gray-dark;
-  font-size: 4rem;
-}
+.hero {
+  &__text-container {
+    &__heading {
+      font-family: variables.$font-heading;
+      color: #fff;
+      font-size: 4rem;
+    }
 
-p {
-  font-family: variables.$font-body;
-  color: variables.$color-gray-dark;
-  font-size: 1.8rem;
+    &__description {
+      font-family: variables.$font-body;
+      color: #fff;
+      font-size: 1.8rem;
+    }
+  }
 }

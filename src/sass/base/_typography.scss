@@ -4,6 +4,7 @@
   &__text-heading {
     font-family: variables.$font-heading;
     color: variables.$color-white;
+    font-weight: 400;
     font-size: 4rem;
   }
 
@@ -16,6 +17,7 @@
 
 .heading {
   font-size: 4rem;
+  font-weight: 400;
 
   &:not(.hero__title-heading) {
     color: variables.$color-gray-dark;
@@ -50,24 +52,35 @@ p {
   color: variables.$color-white;
 }
 
-.blog__text-city {
+.offers__text-city {
   color: variables.$color-gray-light;
   font-size: 2.8rem;
   font-family: variables.$font-subheading;
 }
-.blog__text-price-from {
+.offers__text-price-from {
   color: variables.$color-gray-light;
   font-family: variables.$font-body;
   font-size: 1.8rem;
 }
-.blog__text-price {
+.offers__text-price {
   color: variables.$color-primary-accent;
   font-family: variables.$font-body;
   font-size: 3.2rem;
 }
-.blog__text-button {
+.offers__text-button {
   font-size: 2rem;
   text-transform: uppercase;
   color: variables.$color-white;
   font-family: variables.$font-body;
+}
+
+.card__blog-text-heading {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.read-more__text {
+  font-size: 2.4rem;
+  font-family: variables.$font-body;
+  color: variables.$color-primary-accent;
 }

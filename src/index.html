@@ -20,6 +20,7 @@
 
   </header>
 
+
   <main>
     <section class="hero">
       <div class="hero__text-container">
@@ -27,7 +28,7 @@
         <p class="hero__text-description">The best travel for your jouney begins now</p>
       </div>
 
-      <section class="booking">
+      <div class="booking">
 
         <form class="booking__form" action="">
           <div>
@@ -36,17 +37,16 @@
               id="country">
           </div>
           <div>
-            <label class="booking__form form-text" for="destination">Person</label>
-            <input class="booking__form form-input" placeholder="Select a number" type="text" name="country"
-              id="country">
+            <label class="booking__form form-text" for="num of persons">Person</label>
+            <input class="booking__form form-input" placeholder="Select a number" type="text" name="person" id="person">
           </div>
           <div>
-            <label class="booking__form form-text" for="destination">Check-in</label>
-            <input class="booking__form form-input" type="date" name="country" id="country">
+            <label class="booking__form form-text" for="check-in date">Check-in</label>
+            <input class="booking__form form-input" type="date" name="check-in" id="check-in">
           </div>
           <div>
-            <label class="booking__form form-text" for="destination">Check-out</label>
-            <input class="booking__form form-input" type="date" name="country" id="country">
+            <label class="booking__form form-text" for="check-out date">Check-out</label>
+            <input class="booking__form form-input" type="date" name="check-out" id="check-out">
           </div>
 
         </form>
@@ -54,7 +54,7 @@
           <span class="booking-button__text">Book Now</span>
           <i class="booking-button__icon"></i>
         </button>
-      </section>
+      </div>
 
     </section>
 
@@ -70,7 +70,9 @@
         <div class="card__images-container">
           <img class="card__images images" src="./img/Mobile/popular-destination-Mobile.webp"
             alt="Berlin Cathedral beside the river" width="288" height="320">
+
           <div class="images__figcaption figcaption">
+
             <span class="figcaption__monument">Monument of Berlin</span>
             <img src="./img/Mobile/google-maps-icon.png" alt="google maps icon">
             <span class="figcaption__city">Berlin, Germany</span>

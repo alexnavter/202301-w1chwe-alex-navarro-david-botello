@@ -5,39 +5,20 @@
   flex-direction: column;
   align-items: center;
   row-gap: 10rem;
-
-  .card {
+  &__card {
     display: flex;
     flex-direction: column;
-
-    &__images-container {
-      position: relative;
-      max-width: 28.8rem;
-    }
-    .images {
-      border-radius: 1.6rem;
-    }
-
-    .stars {
-      display: flex;
-    }
+    gap: 2.4rem;
   }
-  &__text {
-    border-radius: 0px 0px 26px 26px;
-    padding: 2rem;
-    max-width: 28.8rem;
-    background: variables.$color-primary-light;
-    &-price {
-      margin-left: 1rem;
-      display: inline-block;
-      margin-bottom: 2rem;
-    }
-    &-button {
-      display: block;
-      width: 50%;
-      border-radius: 1.2rem;
-      padding: 1.6rem 2.4rem;
-      background: variables.$color-primary-accent;
-    }
+  .card__image {
+    border-radius: 1.6rem;
   }
+
+  .card__blog-text {
+    margin: 0;
+    line-height: 4.2rem;
+  }
+}
+.read-more__text {
+  margin-right: 2rem;
 }

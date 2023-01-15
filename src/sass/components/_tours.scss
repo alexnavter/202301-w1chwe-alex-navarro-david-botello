@@ -1,0 +1,50 @@
+.tours__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  width: 186px;
+  height: 61px;
+
+  border-radius: 1.2rem;
+
+  background: #ff7757;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+.card {
+  display: flex;
+
+  &__image {
+    display: flex;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
+
+.city-tour-name {
+  margin-top: 1rem;
+}
+
+.rating-duration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__rating {
+    display: flex;
+    flex-direction: row;
+  }
+}

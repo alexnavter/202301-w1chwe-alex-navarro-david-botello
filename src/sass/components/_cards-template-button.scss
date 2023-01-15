@@ -1,0 +1,21 @@
+@use "../abstracts/variables";
+
+.destinations /*cambiar dependiendo de la card*/ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+
+    &__images-container {
+      position: relative;
+      max-width: 28.8rem;
+    }
+    .images {
+      border-radius: 1.6rem;
+    }
+  }
+}

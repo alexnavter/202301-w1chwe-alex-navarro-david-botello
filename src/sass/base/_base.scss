@@ -10,12 +10,13 @@ main {
 }
 section {
   padding: 8rem 1.6rem;
+
+  .section-with-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .heading {
   display: inline-block;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
 }

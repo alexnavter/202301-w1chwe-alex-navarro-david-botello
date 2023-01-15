@@ -4,14 +4,27 @@
   &__text-container {
     &__heading {
       font-family: variables.$font-heading;
-      color: #fff;
+      color: variables.$color-white;
       font-size: 4rem;
     }
 
     &__description {
       font-family: variables.$font-body;
-      color: #fff;
+      color: variables.$color-white;
       font-size: 1.8rem;
     }
   }
+}
+.heading {
+  font-size: 4rem;
+
+  &:not(.hero__title-heading) {
+    color: variables.$color-gray-dark;
+    border-bottom: 3px solid variables.$color-primary-accent;
+  }
+}
+
+p {
+  font-family: variables.$font-body;
+  font-size: 1.8rem;
 }

@@ -13,7 +13,7 @@
 <body>
 
   <header class="header">
-    <img class="header__logo" src="./img/logo-brand.png" alt="logo brand" width="140" height="27.5">
+    <img class="header__logo" src="./img/logo-brand.png" alt="logo brand" width="140" height="27">
     <nav class="header__nav nav-bar">
       <img src="./img/Mobile/Vector.png" class="nav-bar__icon" alt="logo navigation" width="40" height="30">
     </nav>
@@ -62,18 +62,19 @@
     <section class="destinations section-with-buttons">
       <div class="destinations__headings-container">
         <h2 class="destinations__heading heading">Popular Destinations</h2>
-        <p class="destinations__descriptions">Most popular destinations around the world, from historical places
+        <p class="destinations__descriptions descriptions">Most popular destinations around the world, from historical
+          places
           to natural wonders.</p>
       </div>
       <article class="destinations__card card">
         <div class="card__images-container">
           <img class="card__images images" src="./img/Mobile/popular-destination-Mobile.webp"
-            alt="Berlin Cathedral beside the river" width="288px" height="320px">
-          <figcaption class="images__figcaption figcaption">
+            alt="Berlin Cathedral beside the river" width="288" height="320">
+          <div class="images__figcaption figcaption">
             <span class="figcaption__monument">Monument of Berlin</span>
             <img src="./img/Mobile/google-maps-icon.png" alt="google maps icon">
             <span class="figcaption__city">Berlin, Germany</span>
-          </figcaption>
+          </div>
         </div>
       </article>
       <div class=" destinations__buttons buttons">
@@ -81,10 +82,47 @@
           class="buttons__left-right">
       </div>
     </section>
-    <section class="blog section-without-buttons">
-      <h2 class="blog__heading heading">Our blog</h2>
-      <p class="blog__descriptions">An insight the incredible experience in the world</p>
-      <article class="blog__card card"></article>
+    <section class="blog section-buttons">
+      <div class="blog__headings-container">
+        <h2 class="blog__heading heading">Our blog</h2>
+        <p class="blog__headings descriptions">An insight the incredible experience in the world</p>
+      </div>
+      <article class="blog__card card">
+        <div class="card__image-container">
+          <img src="./img/Mobile/our-blog.webp" alt="view of city of Lisbon" width="288" height="320"
+            class="card__image">
+        </div>
+        <div class="blog__text">
+          <div class="blog__text-city-container">
+            <span class="blog__text-city">Lisbon, Portugal</span>
+            <ul class="stars">
+
+              <li class="star"><img src="./img/Mobile/star.png" alt="star icon"></li>
+              <li class="star"><img src="./img/Mobile/star.png" alt="star icon"></li>
+              <li class="star"><img src="./img/Mobile/star.png" alt="star icon"></li>
+              <li class="star"><img src="./img/Mobile/star.png" alt="star icon"></li>
+              <li class="star"><img src="./img/Mobile/star.png" alt="star icon"></li>
+            </ul>
+          </div>
+          <p class="blog__text-description">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very
+            popular during the renaissance. Passage and
+            going through the cites of the world in classical literature.</p>
+
+          <div class="blog__text-price-container">
+            <span class="blog__text-price-from">From</span>
+            <span class="blog__text-price">€500</span>
+
+
+            <a class="blog__text-button">Details</a>
+          </div>
+        </div>
+
+      </article>
+      <div class=" blog__buttons buttons">
+        <img src="./img/Mobile/Arrow.png" alt="buttons to navigate back or forward to diferents articles"
+          class="buttons__left-right">
+      </div>
+
     </section>
   </main>
 </body>

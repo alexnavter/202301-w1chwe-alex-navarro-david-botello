@@ -28,3 +28,16 @@ p {
   font-family: variables.$font-body;
   font-size: 1.8rem;
 }
+
+.destinations__descriptions {
+  color: variables.$color-gray-light;
+}
+
+.figcaption {
+  color: variables.$color-white;
+  font-family: variables.$font-heading;
+  font-size: 2.4rem;
+  &__city {
+    font-size: 1.8rem;
+  }
+}

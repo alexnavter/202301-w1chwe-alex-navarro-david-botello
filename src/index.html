@@ -13,12 +13,13 @@
 <body>
 
   <header class="header">
-    <img class="header__logo" src="./img/logo-brand.png" alt="logo brand" width="140" height="27.5">
+    <img class="header__logo" src="./img/logo-brand.png" alt="logo brand" width="140" height="27">
     <nav class="header__nav nav-bar">
       <img src="./img/Mobile/Vector.png" class="nav-bar__icon" alt="logo navigation" width="40" height="30">
     </nav>
 
   </header>
+
 
   <main>
     <section class="hero">
@@ -27,7 +28,7 @@
         <p class="hero__text-description">The best travel for your jouney begins now</p>
       </div>
 
-      <section class="booking">
+      <div class="booking">
 
         <form class="booking__form" action="">
           <div>
@@ -36,17 +37,16 @@
               id="country">
           </div>
           <div>
-            <label class="booking__form form-text" for="destination">Person</label>
-            <input class="booking__form form-input" placeholder="Select a number" type="text" name="country"
-              id="country">
+            <label class="booking__form form-text" for="num of persons">Person</label>
+            <input class="booking__form form-input" placeholder="Select a number" type="text" name="person" id="person">
           </div>
           <div>
-            <label class="booking__form form-text" for="destination">Check-in</label>
-            <input class="booking__form form-input" type="date" name="country" id="country">
+            <label class="booking__form form-text" for="check-in date">Check-in</label>
+            <input class="booking__form form-input" type="date" name="check-in" id="check-in">
           </div>
           <div>
-            <label class="booking__form form-text" for="destination">Check-out</label>
-            <input class="booking__form form-input" type="date" name="country" id="country">
+            <label class="booking__form form-text" for="check-out date">Check-out</label>
+            <input class="booking__form form-input" type="date" name="check-out" id="check-out">
           </div>
 
         </form>
@@ -54,7 +54,7 @@
           <span class="booking-button__text">Book Now</span>
           <i class="booking-button__icon"></i>
         </button>
-      </section>
+      </div>
 
     </section>
 
@@ -68,7 +68,7 @@
       <article class="destinations__card card">
         <div class="card__images-container">
           <img class="card__images images" src="./img/Mobile/popular-destination-Mobile.webp"
-            alt="Berlin Cathedral beside the river" width="288px" height="320px">
+            alt="Berlin Cathedral beside the river" width="288" height="320">
           <figcaption class="images__figcaption figcaption">
             <span class="figcaption__monument">Monument of Berlin</span>
             <img src="./img/Mobile/google-maps-icon.png" alt="google maps icon">

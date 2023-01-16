@@ -1,3 +1,9 @@
+.tours {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+}
+
 .tours__button {
   display: flex;
   align-items: center;
@@ -20,6 +26,7 @@
 }
 .card {
   display: flex;
+  flex-direction: column;
 
   &__image {
     display: flex;
